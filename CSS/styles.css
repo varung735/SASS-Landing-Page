@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    cursor: context-menu;
+}
+
+li{
+    list-style: none;
+}
+
+li:hover{
+    cursor: pointer;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+/* ----------------- */
+/* styles for navbar */
+/* ----------------- */
+
+#nav-container{
+    padding: 1% 6%;
+    width: 100%;
+    background-color: #7030cc;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_logo_div{
+    width: 15%;
+}
+
+.nav_logo{
+    margin-left: 8%;
+}
+
+.nav_links_div{
+    width: 70%;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+}
+
+.nav-links :first-child{
+    color: #1bbcef;
+    border-bottom: 2px solid #873ED0;
+}
+
+.nav_btn_div{
+    width: 15%;
+}
+
+.nav_btn{
+    padding: 4% 7%;
+    margin-left: 25%;
+    color: #fff;
+    background: #1bbcef;
+    border: none;
+}
+
+/* -------------------- */
+/* styles for title div */
+/* -------------------- */
+
+.title-container{
+    padding-left: 6%;
+    padding-right: 6%;
+    background-color: #7030cc;
+    color: #fff;
+    display: flex;
+
+}
+
+.title-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.title-heading{
+    margin-top: 22%;
+    font-size: 4rem;
+}
+
+.title-con{
+    margin-top: 5%;
+    font-size: 1.13rem;
+    line-height: 23px;
+}
+
+.title-img{
+    height: 700px;
+    width: 850px;
+}
+
+/* ---------------------- */
+/* styles for content div */
+/* ---------------------- */
+
+.content-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.con-image{
+    width: 60%;
+}
+
+.con-img{
+    margin-top: 5%;
+    margin-left: 3%;
+    height: 700px;
+    width: 800px;
+}
+
+.con-content{
+    width: 40%;
+    margin-top: 8%;
+    padding-right: 10%;
+}
+
+.con-heading{
+    font-size: 2.22rem;
+    font-weight: 900;
+}
+
+.con-feature{
+    margin-top: 6%;
+    display: flex;
+}
+
+.feature-heading{
+    margin-left: 2%;
+    font-size: 21px;
+    margin-bottom: 3%;
+}
+
+.feature-content{
+    margin-left: 2%;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.arrow-img{
+    margin-top: 3px;
+    height: 20px;
+    width: 20px;
+}
+
+/* ----------------------- */
+/* styles for customer div */
+/* ----------------------- */
+
+.custom-container{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.cards{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.card{
+    width: 250px;
+    height: 300px;
+    border: none;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background: transparent;
+    box-shadow: 3px 5px 5px #c9c9c9;
+    
+}
+
+.card-head{
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #faeaeb;
+}
+
+.color-1{
+    background-color: #fbf0ee;
+}
+
+.color-2{
+    background-color: rgba(114, 151, 151, 0.2);
+}
+
+.color-3{
+    background-color: rgba(163, 67, 174, 0.2);
+}
+
+.card-img{
+    height: 50px;
+    width: 50px;
+}
+
+.cb-heading{
+    font-size: 25px;
+}
+
+.cb-con{
+    padding: 0 10%;
+    margin-top: 4%;
+    line-height: 20px;
+    font-size: 15px;
+}
