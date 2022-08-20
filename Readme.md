@@ -10,7 +10,7 @@
 
 ## Time Taken
 
-It took 4-5 hpurs to build this website
+It took 4-5 hours to build this website
 
 ## Concepts Used
 
