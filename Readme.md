@@ -1,4 +1,5 @@
-# SASS Landing Page
+# [SASS-Landing-Page](https://sass-landing-page-13th.netlify.app)
+
 
 ![Screenshot](Screenshot.png)
 
@@ -10,7 +11,7 @@
 
 ## Time Taken
 
-It took 4-5 hours to build this website
+It took 4-5 hours to build this website.
 
 ## Concepts Used
 
@@ -18,7 +19,10 @@ It took 4-5 hours to build this website
  - basic concepts like margin, padding etc.
  - build cards using CSS.
 
-## Project Link
+## Find Me On
 
-[SASS-Landing-Page](https://sass-landing-page-13th.netlify.app)
+ - [LinkedIn](https://www.linkedin.com/in/varun-g-65282489)
+ - [Github](https://github.com/varung735)
+
+## Thank You.
 
