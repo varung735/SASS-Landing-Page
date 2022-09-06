@@ -26,3 +26,5 @@ It took 4-5 hours to build this website.
 
 ## Thank You.
 
+
+> This website is responsive. You can use any device to access this website.
