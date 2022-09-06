@@ -10,11 +10,11 @@
 <body>
 
     <!-- navbar begins here -->
-    <nav id="nav-container">
+    <nav id="nav-container" class="p-none">
         <div class="nav_logo_div">
             <img src="./assets/Logo.png" alt="nav_logo" class="nav_logo">
         </div>
-        <div class="nav_links_div">
+        <div class="nav_links_div hidden">
             <ul class="nav-links">
                 <li class="nav-link">Home</li>
                 <li class="nav-link">Services</li>
@@ -30,15 +30,15 @@
     <!-- navbar ends here -->
 
     <!-- main begins here -->
-    <main id="main-container">
+    <main id="main-container w-full">
         
         <!-- title div begins here-->
-        <div class="title-container">
+        <div class="title-container flex-col-rev">
             
             <!-- This div below holds title content -->
             <div class="title-content">
-                <h1 class="title-heading">Codext one of <br> the best system <br> in SAAS</h1>
-                <p class="title-con">
+                <h1 class="title-heading margin-custom">Codext one of <br> the best system <br> in SAAS</h1>
+                <p class="title-con font-size mb">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore voluptatem sapiente, recusandae sed cumque delectus.
                 </p>
             </div>
@@ -52,15 +52,15 @@
         <!-- title div ends here -->
 
         <!-- Content div begins here -->
-        <div class="content-container">
+        <div class="content-container flex-col">
 
             <!-- This div below contains image -->
-            <div class="con-image">
-                <img src="./assets/Saas illustration-01.svg" alt="con-img" class="con-img">
+            <div class="con-image m-none w-full">
+                <img src="./assets/Saas illustration-01.svg" alt="con-img" class="con-img m-none">
             </div>
 
             <!-- This div below contains content  -->
-            <div class="con-content">
+            <div class="con-content w-full">
                 <h2 class="con-heading">It's helpful for operating <br> system</h2>
                 <div class="con-feature">
                     <div class="arrow">
@@ -105,12 +105,12 @@
         <!-- Content div ends here -->
 
         <!-- Customer div begins here -->
-        <div class="custom-container">
+        <div class="custom-container mt">
 
             <h1 class="custom-heading">We provide Best Features <br> for customer.</h1>
 
             <!-- This below contains cards -->
-            <div class="cards">
+            <div class="cards flex-wrap">
 
                 <!-- card-1 -->
                 <div class="card">

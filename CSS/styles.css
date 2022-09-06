@@ -232,3 +232,71 @@ button:hover{
     line-height: 20px;
     font-size: 15px;
 }
+
+/* Styles for mobile screen */
+/* Here break-point is 1230px */
+
+@media screen and (max-width: 1230px) {
+    
+    .hidden{
+        display: none;
+    }
+
+    .p-none{
+        padding: 0;
+    }
+
+    .m-none{
+        margin: 0;
+    }
+
+    .margin-custom{
+        margin-top: 3%;
+    }
+
+    .mt{
+        margin-top: 5%;
+    }
+
+    .mb{
+        margin-bottom: 2%;
+    }
+
+    .w-full{
+        width: 100%;
+    }
+
+    .flex-col-rev{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .flex-col{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .flex-wrap{
+        flex-wrap: wrap;
+    }
+
+    .font-size{
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .title-img{
+        height: auto;
+        width: auto;
+    }
+
+    .con-img{
+        height: auto;
+        width: auto;
+    }
+
+}
